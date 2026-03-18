@@ -1,7 +1,7 @@
 {
 	"name": "@rappstack/ui--browser--blog",
 	"type": "module",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"types": "./index.ts",
 	"description": "UI library targeting the browser for blogs",
 	"keywords": [
@@ -47,9 +47,9 @@
 		"*.json"
 	],
 	"dependencies": {
-		"@rappstack/domain--any--blog": "workspace:*",
-		"@rappstack/domain--browser": "workspace:*",
-		"@rappstack/ui--any--blog": "workspace:*",
+		"@rappstack/domain--any--blog": "^0.1.0",
+		"@rappstack/domain--browser": "^0.1.0",
+		"@rappstack/ui--any--blog": "^0.1.0",
 		"ctx-core": "^7.2.32",
 		"fuse.js": "^7.1.0",
 		"relementjs": "^0.80.31",
