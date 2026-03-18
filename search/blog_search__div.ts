@@ -75,6 +75,7 @@ export function blog_search__div_<env_T extends relement_env_T>($p:blog_search__
 		return (
 			label_({
 				class: class_(
+					'search__input_label',
 					'relative',
 					'block')
 			}, [
@@ -84,6 +85,8 @@ export function blog_search__div_<env_T extends relement_env_T>($p:blog_search__
 						'left-0',
 						'flex',
 						'inset-y-0',
+						'h-full',
+						'w-full',
 						'pl-2',
 						'items-center',
 						'opacity-75')
