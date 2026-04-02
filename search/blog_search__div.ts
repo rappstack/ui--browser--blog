@@ -86,7 +86,6 @@ export function blog_search__div_<env_T extends relement_env_T>($p:blog_search__
 						'flex',
 						'inset-y-0',
 						'h-full',
-						'w-full',
 						'pl-2',
 						'items-center',
 						'opacity-75')
